@@ -1,6 +1,6 @@
 ---
 name: arabic-pdf-toolkit
-description: Translate a PDF into Arabic in place (same layout, colours and images), write Arabic onto flattened pages, or handle Arabic text in PDFs (RTL, digits, units, extraction). Use for any English-to-Arabic PDF job.
+description: Translate PDFs into Arabic in place, keeping layout, colours and images; write Arabic onto flattened pages; fix Arabic text in PDFs (RTL, digits, units, extraction).
 ---
 
 # Arabic PDF toolkit
