@@ -1,0 +1,90 @@
+{
+ "roles": {
+  "label": {
+   "family": "amiri",
+   "weight": 700,
+   "scale": 1.12
+  },
+  "heading": {
+   "family": "amiri",
+   "weight": 700,
+   "scale": 1.08
+  },
+  "card": {
+   "family": "display",
+   "weight": 700
+  },
+  "serif": {
+   "family": "amiri",
+   "weight": "auto",
+   "scale": 1.08
+  }
+ },
+ "font_rules": [
+  {
+   "font": "^Type3 \\((16|17|29|30|34|35|49|50|51|52|55|59|389|390|430|431) 0 R\\)$",
+   "role": "label"
+  },
+  {
+   "font": "^Type3 \\((19|36|56|57|391|427|432|433|435|441) 0 R\\)$",
+   "role": "heading"
+  },
+  {
+   "font": "^Type3 \\((32|40|78|84|91|95|114|121|124|147|334) 0 R\\)$",
+   "role": "card"
+  },
+  {
+   "font": "^Type3 \\((80) 0 R\\)$",
+   "role": "icon"
+  },
+  {
+   "font": "^Type3 \\((101|398|428) 0 R\\)$",
+   "role": "keep"
+  },
+  {
+   "font": "^Type3",
+   "role": "heading"
+  }
+ ],
+ "keep": [
+  "^(TWO-MEAL|PLAN)$",
+  "^W1 · W2"
+ ],
+ "left_align": [
+  {
+   "pattern": "Loved it(?!:)",
+   "extend_to_container": true
+  },
+  {
+   "pattern": "^(day|checkpoint|finish)$"
+  }
+ ],
+ "mirror_banners": [
+  "BREAKFAST",
+  "LUNCH",
+  "BACKUP"
+ ],
+ "mirror_regions": [
+  {
+   "page": 1,
+   "y0": 600,
+   "y1": 680
+  }
+ ],
+ "restore_regions": [
+  {
+   "page": 1,
+   "rect": [
+    36,
+    381,
+    560,
+    523
+   ],
+   "dpi": 400
+  }
+ ],
+ "replace": {
+  "معلقة صغيرة": "م.ص",
+  "معلقة كبيرة": "م.ك"
+ }
+}

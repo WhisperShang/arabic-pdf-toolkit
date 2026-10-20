@@ -1,0 +1,7 @@
+fonts/
+tests/private/
+__pycache__/
+*.pyc
+out/
+prev/
+*.tmp
